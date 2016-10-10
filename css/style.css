@@ -1,0 +1,23 @@
+body{
+  width: 700px;
+  margin: 10px auto;
+  font-family: helvetica;
+}
+h1 {
+  color: grey;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h2 {
+  color: grey;
+  margin: 50px auto;
+  text-align: center;
+}
+
+a {
+  margin-left: 130px;
+  text-align: center;
+    color: grey;
+    text-decoration: none;
+}

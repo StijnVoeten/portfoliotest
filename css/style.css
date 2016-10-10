@@ -181,7 +181,7 @@ hr {
   margin: 1em 0;
 }
 /* WORK */
-
+/*
 .row .col-md-4 img {
   -webkit-filter: blur(5px);
      -moz-filter: blur(5px);
@@ -201,7 +201,7 @@ hr {
 .row .col-md-4 img:hover {
   -webkit-filter: blur(0px);
 }
-
+*/
 /*Footer*/
 footer {
   background: #000;

@@ -95,7 +95,7 @@ hr {
 
 /*=Layout=*/
 .sec-folio .row {
-  margin-bottom: 3em;
+  margin-bottom: 0em;
 }
 
 .sec-folio img {
@@ -122,8 +122,10 @@ hr {
 
 /*Main*/
 .sec-main {
+  z-index: 6;
   position: relative;
   height: 800px;
+  top: 0em;
   background: url("https://hd.unsplash.com/photo-1454165804606-c3d57bc86b40") no-repeat center center;
   background-size: cover;
 }
@@ -141,7 +143,7 @@ hr {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom:0;
   left: 0;
   z-index: 2;
   padding: 0;
@@ -152,6 +154,7 @@ hr {
 
 /*About*/
 .sec-about a {
+  margin-top: 1em; /* Behance + Linkedin tekst */
   color: #000;
 }
 .sec-about a:hover, .sec-about a:focus {
